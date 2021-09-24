@@ -1,5 +1,13 @@
-## **Instalación de Git**
-### **Instalación con paquetes predeterminados**
+# **Instalación de Git**<a name = "id1"></a>
+
+## **Índice**
+1. [Instalación de Git](#id1)<br>
+  1.1. [Instalación con paquetes predeterminados](#id1.1)<br>
+  1.2. [Instalación de Git desde la fuente](#id1.2)
+2. [Configuraión de Git](#id2)
+
+
+### **Instalación con paquetes predeterminados**<a name = "id1.1"></a>
 En este paso instalaremos Git desde los repositorio de en la nube de Ubuntu, no necesitaremos nosotros descargarnos nada por nuestra cuenta.
 
 Lo primero que haremos será abrir una terminal y lanzar en ella el comando **sudo apt update** para que nos actualice, si es necesario, todos los paquetes que tenemos en nuestro sistema.
@@ -14,7 +22,7 @@ Ahora escribimos **git –version**, este nos mostrará por pantalla la versión
 
 ![Comprobar versión Git](img/instalacion/3.png)
 
-### **Instalación de Git desde la fuente**
+### **Instalación de Git desde la fuente**<a name = "id1.2"></a>
 En este paso, haremos lo contrario que en el anterior, descargaremos nosotros de la página de Git la versión que nosotros queramos de Git y no la que esté subida al repositorio en la nube por defecto de Ubuntu.
 
 Lo primero que haremos, como en el paso anterior es actualizar los paquetes, para ello lanzamos el comando **sudo apt update**.
@@ -45,7 +53,7 @@ Ahora escribimos **git –version**, si todo lo anteriormente realizado está bi
 
 ![Comprobar versión Git](img/instalacion/10.png)
 
-## **Configuración de Git**
+## **Configuración de Git**<a name = "id2"></a>
 Luego de la instalación de Git hay que hacer varios pasos para que podamos hacer uso de este en nuestro equipo.
 
 El primer paso será lanzar el comando **git config --global user.name "Nombre de usuario"**, donde entre las comillas tendremos que escribir nuestro nombre de usuario de GitHub y **git config --global user.email "Email del usuario"** donde entre comillas tendrás que escribir tu email utilizado en la cuenta de GitHub.
