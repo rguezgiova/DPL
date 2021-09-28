@@ -279,7 +279,7 @@ Dentro ya de la rama, creamos el fichero **bibliografia.txt** con el texto "Chac
 daw@DLP17-Lubuntu18:~/libro$ nano bibliografia.txt
 ```
 
-![Editor de texto con el texto a añadir](img/ejercicios/19.png)
+![Editor de texto con el texto a añadir](img/ejemplos/19.png)
 
 Añadimos los cambios a la zona de intercambio temporal.
 
