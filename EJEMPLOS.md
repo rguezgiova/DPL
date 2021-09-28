@@ -1,8 +1,18 @@
 # **Ejemplos en Git**
 
 ## **Indice**
+[Introducción](#id1)<br>
+[Ejercicio 1](#id2)<br>
+[Ejercicio 2](#id3)<br>
+[Ejercicio 3](#id4)<br>
+[Ejercicio 4](#id5)<br>
+[Ejercicio 5](#id6)<br>
+[Ejercicio 6](#id7)<br>
+[Ejercicio 7](#id8)<br>
+[Ejercicio 8](#id9)<br>
+[Ejercicio 9](#id10)
 
-### **Introducción**
+### **Introducción**<a name = "id1"></a>
 Antes de empezar los ejercicios clonaremos el repositorio remoto: https://github.com/jpexposito/libro utilizando el siguiente comando y nos moveremos dentro de él.
 
 ```
@@ -16,7 +26,7 @@ Recibiendo objetos: 100% (3/3), listo.
 daw@DLP17-Lubuntu18:~$ cd libro/
 ```
 
-### **Ejercicio 1**
+### **Ejercicio 1**<a name = "id2"></a>
 En el primer ejercicio, lo primero que todo será mostrar el historial de cambios en el repositorio, usaremos el siguiente comando:
 
 ```
@@ -69,7 +79,7 @@ Date:   Mon Sep 27 11:57:59 2021 +0100
 
     Initial commit
 ```
-### **Ejercicio 2**
+### **Ejercicio 2**<a name = "id3"></a>
 Lo primero que haremos será crear el fichero **capitulo2.txt** en el directorio con el texto: "El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.".
 
 ```
@@ -118,7 +128,7 @@ index 0000000..c1e7bb2
 +
 ```
 
-### **Ejercicio 3**
+### **Ejercicio 3**<a name = "id4"></a>
 Como en los anteriores ejercicios, lo primero que haremos será crear el fichero **capitulo3.txt** con lo siguiente "Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.".
 
 ```
@@ -170,7 +180,7 @@ Date:   Mon Sep 27 11:57:59 2021 +0100
     Initial commit
 ```
 
-### **Ejercicio 4**
+### **Ejercicio 4**<a name = "id5"></a>
 Lo primero que haremos en este ejercicio será modificar el fichero **indice.txt** y añadirle lo siguiente: "Capítulo 5: Conceptos avanzados".
 
 ```
@@ -202,7 +212,7 @@ daw@DLP17-Lubuntu18:~/libro$ git annotate indice.txt
 53d8abba        (rguezgiova     2021-09-28 09:48:48 +0100       1)Capítulo 5: Conceptos avanzados
 ```
 
-### **Ejercicio 5**
+### **Ejercicio 5**<a name = "id6"></a>
 En este ejercicio crearemos una nueva rama en el repositorio, para ello haremos lo siguiente:
 
 ```
@@ -219,7 +229,7 @@ daw@DLP17-Lubuntu18:~/libro$ git branch -av
   remotes/origin/main 4dcb74b Initial commit
 ```
 
-### **Ejercicio 6**
+### **Ejercicio 6**<a name = "id7"></a>
 Lo primero que haremos será crear el fichero **capitulo4.txt** con el texto "En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.".
 
 ```
@@ -255,7 +265,7 @@ daw@DLP17-Lubuntu18:~/libro$ git commit -m "Añadido capitulo 4."
 * 4dcb74b (origin/main, origin/HEAD) Initial commit
 ```
 
-### **Ejercicio 7**
+### **Ejercicio 7**<a name = "id8"></a>
 En este ejercicio, lo primero que haremos será movernos a la rama **bibliografia**.
 
 ```
@@ -300,7 +310,7 @@ daw@DLP17-Lubuntu18:~/libro$ git log --graph --all --oneline
 * 4dcb74b (origin/main, origin/HEAD) Initial commit
 ```
 
-### **Ejercicio 8**
+### **Ejercicio 8**<a name = "id9"></a>
 En este ejercicio vamos a juntar la  rama **bibliografia** con la rama **master**.
 
 ```
@@ -354,7 +364,7 @@ daw@DLP17-Lubuntu18:~/libro$ git log --graph --all --oneline
 * 4dcb74b (origin/main, origin/HEAD) Initial commit
 ```
 
-### **Ejercicio 9**
+### **Ejercicio 9**<a name = "id10"></a>
 Lo primero que hacemos es crear la rama **bibliografia**.
 
 ```
