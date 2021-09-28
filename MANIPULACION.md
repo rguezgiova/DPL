@@ -1,5 +1,14 @@
 ## **Manipulación de repositorios de Git**
-### **Configuración**
+
+## **Índice** 
+1. [Configuración](#id1)
+2. [Creación de un repositorio](#id2)
+3. [Comprobar el estado del repositorio](#id3)
+4. [Realizando Commit´s](#id4)
+5. [Modificación de ficheros](#id5)
+6. [Historial](#id6)
+
+### **Configuración**<a name = "id1"></a>
 Lo primero que haremos será la configuración de Git definiendo nuestro nombre de usuario y correo electrónico.
 
 ![Configuración de usuario y correo electrónico](img/manipulacion/1.png)
@@ -8,12 +17,12 @@ También activaremos el color de la salida de los comandos, mostraremos la confi
 
 ![Configuración del color de salida](img/manipulacion/2.png)
 
-### **Creación de un repositorio**
+### **Creación de un repositorio**<a name = "id2"></a>
 Ahora crearemos el directorio **DPL**, nos moveremos a él e iniciaremos git, lanzamos el comando **ls -la** al final para ver que se han creado las dependencias de Git dentro.
 
 ![Creación del directorio DPL, iniciación de Git en él y comprobación de las dependencias de Git](img/manipulacion/3.png)
 
-### **Comprobar el estado del repositorio**
+### **Comprobar el estado del repositorio**<a name = "id3"></a>
 Ahora comprobaremos el estado del repositorio.
 
 ![Comprobación del estado del directorio](img/manipulacion/4.png)
@@ -34,7 +43,7 @@ Y volveremos a comprobar el estado del repositorio, ahora como vemos, ya el camb
 
 ![Comprobación del directorio](img/manipulacion/8.png)
 
-### **Realizando Commit´s**
+### **Realizando Commit´s**<a name = "id4"></a>
 En este paso lo primero que haremos será realizar un commit de los cambios realizados anteriormente con el mensaje “Añadido índice de la asignatura DPL.”.
 
 ![Realización del primer commit](img/manipulacion/9.png)
@@ -43,7 +52,7 @@ Luego de esto, veremos el estado del repositorio.
 
 ![Comprobar estado del repositorio](img/manipulacion/10.png)
 
-### **Modificación de ficheros**
+### **Modificación de ficheros**<a name = "id5"></a>
 Modificaremos el fichero creado anteriormente y le añadiremos lo siguiente:
 
 ![Modificación del fichero añadiendo información adicional](img/manipulacion/11.png)
@@ -56,7 +65,7 @@ Por último añadiremos un nuevo commit con el mensaje “Añadido los capítulo
 
 ![Realización de un commit nuevo](img/manipulacion/13.png)
 
-### **Historial**
+### **Historial**<a name = "id6"></a>
 En este paso mostraremos los cambios de la última versión subida al repositorio con respecto de la anterior.
 
 ![Comprobación de cambios respecto al directorio](img/manipulacion/14.png)
