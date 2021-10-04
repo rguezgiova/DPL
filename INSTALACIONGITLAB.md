@@ -4,7 +4,6 @@
 [Actualización de repositorios](#id1)<br>
 [Instalación de paquetes adicionales](#id2)<br>
 [Instalación de GitLab](#id3)
-
 [Acceso](#id4)
 
 
