@@ -197,7 +197,7 @@ oct 07 15:17:08 DLP17-Lubuntu18 startup.sh[8422]: Tomcat started.
 oct 07 15:17:08 DLP17-Lubuntu18 systemd[1]: Started Tomcat 10.0 servlet container para Ubuntu 20.04 LTS.
 ```
 
-Por último añadiremos a Tomcat como iniciio automático cuando arranque el sistema.
+Por último añadiremos a Tomcat como inicio automático cuando arranque el sistema.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo systemctl enable tomcat10
