@@ -2,6 +2,9 @@
 
 ## **Índice**
 [Actualización de repositorios](#id1)<br>
+[Requisitos previos](#id2)<br>
+[Instalación de Apache-Tomcat](#id3)<br>
+[Acceso a Apache-Tomcat](#id4)
 
 ## **Actualización de repositorios**<a name = "id1"></a>
 Lo primero que haremos será actualizar los repositorios del sistema operativo.
@@ -33,7 +36,7 @@ Se necesita descargar 59,7 MB de archivos.
 Se liberarán 1.292 kB después de esta operación.
 ```
 
-## **Requisitos previos**
+## **Requisitos previos**<a name = "id2"></a>
 Tendremos que instalar **Java**, para ello haremos lo siguiente:
 
 ```bash
@@ -102,7 +105,7 @@ Finalmente cargaremos la variable de entorno.
 daw@DLP17-Lubuntu18:~$ source /etc/profile.d/java.sh
 ```
 
-## **Instalación de Tomcat**
+## **Instalación de Apache-Tomcat**<a name = "id3"></a>
 Ahora instalaremos **Apache-Tomcat**, para ello lo descargaremos de su página de descargas del sitio oficial.
 
 ```bash
@@ -201,7 +204,7 @@ daw@DLP17-Lubuntu18:~$ sudo systemctl enable tomcat10
 Created symlink /etc/systemd/system/multi-user.target.wants/tomcat10.service → /etc/systemd/system/tomcat10.service.
 ```
 
-## **Acceso a Apache-Tomcat**
+## **Acceso a Apache-Tomcat**<a name = "id4"></a>
 Ahora modificaremos el fichero **server.xml** de la ruta **/opt/tomcat/apache-tomcat/conf**, y cambiar el puerto al **8085**.
 
 ```
