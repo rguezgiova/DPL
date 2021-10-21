@@ -103,12 +103,6 @@ Y lo moveremos a la ubicación que va a ocupar, en este caso **/opt/wildfly**.
 daw@DLP17-Lubuntu18:~/Descargas$ sudo mv wildfly-25.0.0.Final /opt/wildfly
 ```
 
-Creamos un enlace simbólico al directorio.
-
-```bash
-
-```
-
 Ahora le daremos permisos al usuario y grupo **wildfly**.
 
 ```bash
@@ -141,7 +135,7 @@ Ya podremos iniciar el servicio.
 daw@DLP17-Lubuntu18:~$ sudo systemctl start wildfly
 ```
 
-Verfificaremos el estado del servicio.
+Verificaremos el estado del servicio.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo systemctl status wildfly
