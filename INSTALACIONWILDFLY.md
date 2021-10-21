@@ -2,8 +2,10 @@
 
 ## **Índice**
 [Actualización de repositorios](#id1)<br>
-[Instalación de WildFly](#id2)
-
+[Instalación de WildFly](#id2)<br>
+[Configuración de WildFly](#id3)<br>
+[Acceso a WildFly](#id4)<br>
+[Añadir usuarios a WildFly](#id5)
 
 ## **Actualización de repositorios**<a name = "id1"></a>
 Antes de comenzar con la instalación actualizaremos los repositorios.
@@ -163,7 +165,7 @@ daw@DLP17-Lubuntu18:~$ sudo systemctl enable wildfly
 Created symlink /etc/systemd/system/multi-user.target.wants/wildfly.service → /etc/systemd/system/wildfly.service.
 ```
 
-## **Configurar WildFly**
+## **Configuración de WildFly**<a name = "id3"></a>
 En este apartado configuraremos **WildFly** para permitir el tráfico por un puerto específico, para ello, modificaremos el siguiente fichero.
 
 ```bash
@@ -184,12 +186,12 @@ Regla añadida
 Regla añadida (v6)
 ```
 
-## **Acceso a WildFly**
+## **Acceso a WildFly**<a name = "id4"></a>
 Para acceder a **WildFly** usaremos la IP: **http://localhost:8083/**.
 
 ![Visualización de la pag principal de WildFly](/img/wildfly/15.png)
 
-## **Añadir usuarios a WildFly**
+## **Añadir usuarios a WildFly**<a name = "id5"></a>
 Primero añadiremos el usuario administrador.
 
 ```bash
