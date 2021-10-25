@@ -44,9 +44,7 @@ Por último visitaremos la página para verificar el correcto funcionamiento de 
 ![Verificación funcionamiento](/img/wildfly-s/7.png)
 
 ## **Instalación de Servicio Hello-WS**<a name = "id3"></a>
-Como hicimos en el apartado anterior, una vez descargados los ejemplos ejecutaremos el siguiente c```bash
-daw@DLP17-Lubuntu18:~/Desktop/helloworld-ws$ mvn clean install
-```omando para complilar el proyecto.
+Como hicimos en el apartado anterior, una vez descargados los ejemplos ejecutaremos el siguiente comando para complilar el proyecto.
 
 ```bash
 daw@DLP17-Lubuntu18:~/Desktop/helloworld-ws$ mvn clean install
