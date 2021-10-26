@@ -183,7 +183,7 @@ Lo siguiente será darle la propiedad del directorio a la variable de entorno **
 daw@DLP17-Lubuntu18:~$ sudo chown -R $USER:$USER /var/www/giovanni/html/
 ```
 
-Ahora asignaremos los permisos del directorio en **755*, esto hará que el propietario tenga todos los permisos, pero su grupo y el resto de usuarios solo lectura.
+Ahora asignaremos los permisos del directorio en **755**, esto hará que el propietario tenga todos los permisos, pero su grupo y el resto de usuarios solo lectura.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo chmod -R 755 /var/www/giovanni/
@@ -208,7 +208,7 @@ Con el siguiente contenido:
 </html>
 ```
 
-Ahora crearemos un archivo de configuración nuevo para nuestro bloque en la ruta **/etc/nginx/sites-available/giovanni** con el siguiente contenido.
+Luego crearemos un archivo de configuración nuevo para nuestro bloque en la ruta **/etc/nginx/sites-available/giovanni** con el siguiente contenido.
 
 ```bash
 server {
@@ -226,7 +226,7 @@ server {
 }
 ```
 
-Ahora de ese mismo fichero de configuración le realizaremos un enlace simbólico a la ruta **/etc/nginx/sites-enabled**.
+De ese mismo fichero de configuración le realizaremos un enlace simbólico a la ruta **/etc/nginx/sites-enabled**.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo ln -s /etc/nginx/sites-available/giovanni /etc/nginx/sites-enabled/
@@ -238,7 +238,7 @@ Ahora para evitar un problema de memoria habilitaremos la directiva **server_nam
 daw@DLP17-Lubuntu18:~$ sudo nano /etc/nginx/nginx.conf
 ```
 
-Ahora comprobaremos si todo lo anterior está sin errores de sintaxis.
+Lo siguiente comprobaremos si todo lo anterior está sin errores de sintaxis.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo nginx -t
@@ -246,7 +246,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-Ahora reiniciaremos el servicio.
+Por último reiniciaremos el servicio.
 
 ```bash
 daw@DLP17-Lubuntu18:~$ sudo systemctl restart nginx.service
