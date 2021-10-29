@@ -1,4 +1,4 @@
-# ** Instalación de PHP en Linux**
+# **Instalación de PHP en Linux**
 
 ## **Índice**
 [PHP para Apache](#id1)<br>
