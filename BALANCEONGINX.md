@@ -19,7 +19,7 @@ server {
 
   location / {
       #La configuración del proxy.
-      proxy_pass http://localhost:8083/app-web-giovanni;
+      proxy_pass http://localhost:8082/app-web-giovanni;
   }
 }
 ```
