@@ -24,7 +24,7 @@ server {
 }
 ```
 
-Luego de esto reiniciaremos el servicio de Nginix.
+Luego de esto reiniciaremos el servicio de Nginx.
 
 ```bash
 daw@budgie21:~$ sudo systemctl restart nginx
