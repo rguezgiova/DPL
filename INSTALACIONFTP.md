@@ -1,4 +1,4 @@
-# **Instalación y Adminsitración de Transferencia de archivos**
+# **Instalación y Administración de Transferencia de archivos**
 
 ## **Ínice**
 [Instalación de FTP](#id1)<br>
