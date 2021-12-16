@@ -37,20 +37,19 @@ Accederemos ahora a **www.midominio.com** y veremos que nos muestra.
 Ahora vamos a añadir más configuración al fichero.
 
 ```bash
-http {
-    upstream server_group_wildfly {
-        least_conn;
-        server http://localhost:8080/app-web-giovanni/;
-        server http://localhost:8081/app-web-giovanni/;
-        server http://localhost:8082/app-web-giovanni/;
-        server http://localhost:8083/app-web-giovanni/ backup;
-    }
+upstream server_group_wildfly {
+    least_conn;
+    server http://localhost:8080/app-web-giovanni/;
+    server http://localhost:8081/app-web-giovanni/;
+    server http://localhost:8082/app-web-giovanni/;
+    server http://localhost:8083/app-web-giovanni/ backup;
+}
 
-    server {
-        location / {
-            proxy_pass http://server_group_wildfly;
-        }
+server {
+    location / {
+        proxy_pass http://server_group_wildfly;
     }
+}
 ```
 
 Volvemos a reiniciar el servicio.
