@@ -19,12 +19,12 @@ server {
 
   location / {
       #La configuración del proxy.
-      proxy_pass http://localhost:8083/app-web-giovanni;
+      proxy_pass http://localhost:8082/app-web-giovanni;
   }
 }
 ```
 
-Luego de esto reiniciaremos el servicio de Nginix.
+Luego de esto reiniciaremos el servicio de Nginx.
 
 ```bash
 daw@budgie21:~$ sudo systemctl restart nginx
