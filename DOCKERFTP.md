@@ -36,7 +36,7 @@ daw@budgie21:~/docker$ docker run --name ftp2 -v /host/upload:/home/admin/upload
 0a150624261cea9357958dbc97b7571bdc9bee7c43e48181fc6705b00f55d1fb
 ```
 
-Por último configuraremos el servidor FTP para el uso de multiples usuarios.
+Por último configuraremos el servidor FTP para el uso de múltiples usuarios.
 
 ```bash
 daw@budgie21:~/docker$ docker run --name ftp3 -v /host/users.conf:/etc/sftp/users.conf:ro -v /home/sftp:/home --privileged=true -p 2296:22 -d atmoz/sftp
