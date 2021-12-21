@@ -1,4 +1,4 @@
-# **Instalación y Adminsitración de Transferencia de archivos**
+# **Instalación y Administración de Transferencia de archivos**
 
 ## **Ínice**
 [Instalación de FTP](#id1)<br>
@@ -68,7 +68,7 @@ Se utilizarán 40,9 MB de espacio de disco adicional después de esta operación
 
 Verificamos que nos podemos conectar al servidor.
 
-![Test conexion](img/ftp-insalacion/6.png)
+![Test conexion](img/ftp-instalacion/6.png)
 
 ## **Configuración de FTP**<a name = "id3"></a>
 Ahora configuraremos el modo pasivo, para ello, editaremos el fichero **vsftpd.conf** y añadiremos lo siguiente:
