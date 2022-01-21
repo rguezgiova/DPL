@@ -98,12 +98,12 @@ Ejecutamos el pipeline y se ejecutará correctamente.
 ## **Creación de Pipeline en Go**<a name = "id6"></a>
 Como en el punto anterior iremos a **Nueva tarea** y le ponemos **nombre** y **tipo**.
 
-![Creación pipeline Go](img/pipeline-jenkins/19.png)
+![Creación pipeline Go](img/pipeline-jenkins/22.png)
 
 Insertamos el script que ejecutará nuestro pipeline.
 
-![Script](img/pipeline-jenkins/20.png)
+![Script](img/pipeline-jenkins/23.png)
 
 Ejecutamos el pipeline y se ejecutará correctamente.
 
-![Ejecución correcta Go](img/pipeline-jenkins/21.png)
+![Ejecución correcta Go](img/pipeline-jenkins/24.png)
