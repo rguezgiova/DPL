@@ -45,4 +45,4 @@ es el siguiente:
 
 El siguiente paso será subirlo al repositorio y lanzarlo, como vemos, el resultado es correcto.
 
-![Pipeline correcto](img/bitbucket-pipelines/5.png)
+![Pipeline correcto](img/bitbucket-pipelines/8.png)
